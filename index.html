@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphs That Go UP! 🚀</title>
+    <!-- Google Font: Orbitron -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Plotly.js CDN -->
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y72QMRMQSQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-Y72QMRMQSQ');
+    </script>
+</head>
+<body>
+    <h1>Graphs That Go UP!</h1>
+    <h2>To the Moon! 🚀</h2>
+    <h3>Instantly show upward trends. No real data needed.</h3>
+    <p class="description">Turn your wildest dreams, market predictions, or just random words into beautiful, undeniable proof that things are heading TO THE MOON! Enter your concept below and witness the gains.</p>
+
+    <div class="container">
+        <div class="input-controls">
+            <input type="text" id="axis-description" placeholder="Plot: My Moonbag / BTC, ETH / Profits last Q">
+            <button id="generate-button">Generate Graph! 📈</button>
+            <button id="copy-link-button" title="Copy link to current graph">Copy Link 🔗</button>
+        </div>
+        <div id="graph-container">
+             <div id="loading-indicator" style="display: none; text-align: center; padding-top: 50px;">Generating... 🚀</div>
+        </div>
+
+        <div class="examples">
+            <h3>Examples to try:</h3>
+            <ul>
+                <li data-example="Users, Revenue and Profit last quarter">Users, Revenue and Profit 2024</li>
+                <li data-example="BTC / ETH / SOL">BTC / ETH / SOL</li>
+                <li data-example="Doge price last week">Doge price last quarter</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>Created by <a href="https://www.linkedin.com/in/seo01/" target="_blank" rel="noopener noreferrer">Simon Overell</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
